@@ -8,8 +8,8 @@ import timetable
 db.get_connection()
 db.init_db()
 
-#bot = telebot.TeleBot('1063952322:AAG3DoFwiri2T2-EVjNEw7U1r7Dlz0f3-T8') # test
-bot = telebot.TeleBot('1021780150:AAGyNRRcRjrK8IdbkP7kPshHxQBZaJDIiUM') # main
+#bot = telebot.TeleBot('*') # test
+bot = telebot.TeleBot('*') # main
 
 
 @bot.message_handler(commands=['start'])
