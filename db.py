@@ -7,10 +7,10 @@ def get_connection():
     global __connection
     if __connection is None:
         __connection = psycopg2.connect(
-        database="d6u5aqe7j66km8",
-        user="chjjrzihkqcdnq",
-        password="ae2db8c168d7d7f9171e06b18c43e4341b17ea987856f012e756addd78d1e0de",
-        host="ec2-54-195-247-108.eu-west-1.compute.amazonaws.com",
+        database="*",
+        user="*",
+        password="*",
+        host="*",
         port="5432"
     )
     return __connection
