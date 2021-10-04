@@ -1,4 +1,5 @@
-from . import tables, user
+from . import tables, admin_panel, timetable
 
-user_manager = user.User()
 table_manager = tables.Tables()
+admin_manager = admin_panel.AdminPanel()
+timetable_manager = timetable.TimeTable()
